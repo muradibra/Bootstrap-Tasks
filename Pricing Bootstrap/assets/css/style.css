@@ -1,0 +1,32 @@
+:root {
+    --card-padding: 1rem;
+    --card-body-bg : #212529;
+    --card-header-bg : #adb5bd08;
+}
+
+body {
+    background-color: #212529;
+}
+
+a {
+    text-decoration: none;
+}
+
+.pricing-top {
+    color: #adb5bd;
+}
+
+/* .pricing-top h1 {
+    font-size: 64px;
+} */
+
+.card-body {
+    padding: var(--card-padding);
+    background-color: var(--card-body-bg);
+    border-radius: 0 0 5px 5px;
+}
+
+footer img {
+    width: 24px;
+}
+
